@@ -8,7 +8,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  
+  margin-left: auto;
+  margin-right: auto;
   
 }
 .header {
@@ -98,14 +99,17 @@
 }
 .header-footer {
   display: flex;
-  flex-direction: column;
-  margin-left: 80px;
-  margin-bottom: 40px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: auto;
+  padding-left: 80px;
+  padding-bottom: 40px;
+  padding-right: 80px;
 }
 .header-footer__paragraph {
-  margin-left: auto;
-  padding-right: 80px;
-  margin-bottom: 40px;
+  margin: 0;
+  
+  
 }
 
 .recipes__title {
