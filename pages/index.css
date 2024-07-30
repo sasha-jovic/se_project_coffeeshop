@@ -144,7 +144,7 @@
   background-image: url(../images/background_recipes.svg);
 }
 
-.recipes__video-list {
+.recipes__videos {
   display: flex;
   flex-direction: row;
   padding-bottom: 215px;
