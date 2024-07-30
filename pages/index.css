@@ -8,8 +8,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .header {
   display: flex;
@@ -24,13 +22,14 @@
   max-height: 800px;
   min-height: 720px;
   height: 100vh;
+  z-index: 2;
 }
 .nav__logo {
   position: relative;
   width: 105px;
   height: 39px;
-  margin-left: 30px;
-  margin-top: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 .nav__link {
   text-decoration: none;
@@ -48,7 +47,7 @@
   margin-right: 80px;
   gap: 20px;
   text-decoration: none;
-  padding: 0;
+
   cursor: pointer;
   margin-top: 30px;
   list-style-type: none;
@@ -68,8 +67,8 @@
 }
 
 .header__span-accent {
-  margin-left: 80px;
-  margin-top: 183px;
+  padding-left: 80px;
+  padding-top: 183px;
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -77,54 +76,33 @@
   line-height: 72px;
   color: #2f80ed;
 }
-.header__description{
+.header__description {
   max-width: 683px;
-  margin-left: 80px;
-  
+  padding-left: 80px;
 }
 
 .header__image {
-padding-left: 850px;
-margin-right: 5px;
-position: absolute;
-max-width: 646px;
-max-height: 568px;
+  padding-left: 850px;
+  padding-right: 5px;
+  position: absolute;
+  max-width: 646px;
+  max-height: 568px;
 
-margin-top: 124px;
-
+  padding-top: 124px;
 }
-.footer-column {
+.header__footer {
   display: flex;
   flex-direction: column;
+  padding-left: 80px;
+  margin-bottom: 40px;
 }
- .footer-column-heading {
-  margin-left: 80px;
- } 
-  
-  
-
-.footer-column__list {
-  list-style-type: none;
-  margin-left: 40px;
-  
-}
-.header__address {
-margin-left: auto;
-margin-right: 80px;
-margin-bottom: 40px;
-
+.header__paragraph {
+  margin-left: auto;
+  padding-right: 80px;
+  margin-bottom: 40px;
 }
 
-
-  
-
- 
-
-
-  
-
-
-.title {
+.recipes__title {
   color: white;
   max-width: 580px;
   padding-left: 80px;
@@ -136,7 +114,7 @@ margin-bottom: 40px;
   font-weight: 500;
 }
 
-.subtitle {
+.recipes__subtitle {
   color: white;
   max-width: 438px;
   margin-left: 80px;
@@ -148,30 +126,32 @@ margin-bottom: 40px;
 .recipes {
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
-
   background-color: #0a2750;
+  background-size: cover;
+  background-position: center;
 }
-.recipes__videos {
+
+.recipes__video-list {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   padding-bottom: 215px;
   gap: 40px;
   list-style-type: none;
   margin-top: 80px;
 }
-.recipes__videos_video-1 {
+.recipes__video-1 {
   margin-left: auto;
   display: flex;
   flex-direction: column;
 }
 
-.recipes__videos_video-2 {
+.recipes__video-2 {
   margin-right: auto;
   display: flex;
   flex-direction: column;
 }
 
-.video_caption {
+.video-caption {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
