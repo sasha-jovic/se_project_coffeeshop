@@ -9,6 +9,7 @@
   text-decoration: none;
   color: #000;
   cursor: pointer;
+  transition: 0.4s ease;
 }
 
 .nav__link:hover {
