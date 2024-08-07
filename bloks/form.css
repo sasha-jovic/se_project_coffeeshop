@@ -20,14 +20,14 @@
   width: 385px;
    
 }
-.reservation__form__label {
+.form__label {
   margin-bottom: 8px;
 }
-.reservation__form__input {
+.form__input {
   margin-bottom: 32px;
   height: 60px;
 }
-.reservation__form__button {
+.form__button {
   height: 60px;
   background-color: #1878dc;
   font-size: 16px;
