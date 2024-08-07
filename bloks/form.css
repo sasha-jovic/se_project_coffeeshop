@@ -1,14 +1,23 @@
-.form__fieldset {
-
+@keyframes transition {
+  70%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.2);
+  }
 }
-.form__label {
 
-}
+
+
+
+
+
 .form__input {
   height: 60px;  
   width: 385px;
 }
 .form__button {
+  width: 385px;
    
 }
 .reservation__form__label {
@@ -23,22 +32,30 @@
   background-color: #1878dc;
   font-size: 16px;
   line-height: 20px;
-  transition: 0.5s ease;
+  transition: 0.7s ease;
   
   color: white;
   padding: 20px 20px;
 }
 .form__button:hover {
   background-color: #2f80ed;
+  
 }
 
-.reservation__form__checkbox {
-  text-align: center;
+
+
+.form__checkbox_label {
+  
   margin-top: 32px;
-}
-
-.form__input_type_checkbox {
-  height: 20px;
-  width: 20px;
   gap: 12px;
+  text-align: center;
+  display: flex;
+margin-left: auto;
+margin-right: auto;
 }
+.form__input_type_checkbox {
+  width:20px;
+  height: 20px;
+}
+  
+  
