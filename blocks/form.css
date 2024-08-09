@@ -3,19 +3,22 @@
     transform: scale(1);
   }
   100%{
+    opacity: 0;
     transform: scale(1.2);
   }
 }
 
 
 
+  
 
 
 
-.form__input {
-  height: 60px;  
-  width: 385px;
-}
+
+
+  
+  
+
 .form__button {
   width: 385px;
    
@@ -26,6 +29,7 @@
 .form__input {
   margin-bottom: 32px;
   height: 60px;
+  width: 100%;
 }
 .form__button {
   height: 60px;
@@ -50,12 +54,13 @@
   gap: 12px;
   text-align: center;
   display: flex;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .form__input_type_checkbox {
   width:20px;
   height: 20px;
+  margin-bottom: 0;
 }
   
   

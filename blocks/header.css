@@ -45,6 +45,7 @@
   height: 568px;
   right: 0;
   top: 124px;
+  z-index: -1;
 }
 .header-footer {
   display: flex;
