@@ -12,20 +12,23 @@
   min-height: 720px;
   height: 100vh;
   z-index: 2;
+  margin: 0 5px 0 0;
+  
 }
 
 .header__title {
   max-width: 729px;
-  margin-left: 80px;
+  
   line-height: 72px;
   letter-spacing: -0.6px;
   font-size: 60px;
   font-weight: 500;
+  margin: 183px 0 28px 80px;
 }
 
 .header__span-accent {
-  padding-left: 80px;
-  padding-top: 183px;
+  display: block;
+  
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -37,6 +40,12 @@
 .header__description {
   max-width: 683px;
   padding-left: 80px;
+  margin: 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
@@ -47,7 +56,7 @@
   top: 124px;
   z-index: -1;
 }
-.header-footer {
+.header__footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -55,7 +64,8 @@
   padding-left: 80px;
   padding-bottom: 40px;
   padding-right: 80px;
+  color: #6F6F6F;
 }
-.header-footer__paragraph {
+.header__footer_paragraph {
   margin: 0;
 }

@@ -42,8 +42,10 @@
           </li>
         </ul>
       </nav>
-      <span class="header__span-accent">Specialty Coffee</span>
-      <h1 class="header__title">in the Triple Peaks Library</h1>
+      
+      <h1 class="header__title">
+        <span class="header__span-accent">Specialty Coffee</span>
+        in the Triple Peaks Library</h1>
       <p class="header__description">
         Welcome to our study zone! We've got the coffee to energize you and the
         cozy vibes to help you get creative.
@@ -54,13 +56,13 @@
         class="header__image"
       />
 
-      <div class="header-footer">
+      <div class="header__footer">
         <div>
-          <p class="header-footer__paragraph">Hours</p>
-          <p class="header-footer__paragraph">weekdays:(10:00-19:00)</p>
-          <p class="header-footer__paragraph">weekends:(11:00-18:00)</p>
+          <p class="header__footer_paragraph">Hours</p>
+          <p class="header__footer_paragraph">weekdays:(10:00-19:00)</p>
+          <p class="header__footer_paragraph">weekends:(11:00-18:00)</p>
         </div>
-        <p class="header-footer__paragraph">
+        <p class="header__footer_paragraph">
           200 Success Avenue, The Town of Triple Peaks
         </p>
       </div>
@@ -75,37 +77,43 @@
         <ul class="recipes__videos">
           <li class="recipes__video">
             <iframe
-              width="480"
-              height="273"
+              
+              
               src="https://www.youtube.com/embed/j6VlT_jUVPc?si=Ntk3xcm4dEnpT1jE"
               title="YouTube video player"
               class="recipes__iframe"
             ></iframe>
 
-            <div class="recipes__video-caption">
-              <p class="video-caption">Aeropress recipe</p>
-              <p class="video-caption">~5 min</p>
-            </div>
+            
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span>
+                <span>~5 min</span>
+              </p>
+              
+            
           </li>
 
           <li class="recipes__video">
             <iframe
-              width="480"
-              height="273"
+              
+              
               src="https://www.youtube.com/embed/st571DYYTR8?si=2xZIKlG-zZrhu0vc"
               title="YouTube video player"
               class="recipes__iframe"
             ></iframe>
-            <div class="recipes__video-caption">
-              <p class="video-caption">French press recipe</p>
-              <p class="video-caption">~15 min</p>
-            </div>
+            
+              <p class="recipes__video-caption">
+                <span>French press recipe</span>
+                <span>~15 min</span>
+              </p>
+              
+            
           </li>
         </ul>
       </section>
       <section class="reservation" id="book_a_table">
-        <h3 class="reservation__title">Book a table</h3>
-        <div class="form reservation__form">
+        <h2 class="reservation__title">Book a table</h2>
+        
           <form class="reservation__form">
             <label for="name" class="form__label"
               >Name*</label
@@ -145,7 +153,7 @@
 
             <input
               type="email"
-              class="form__input reservation__form__input"
+              class="form__input"
               id="email"
               required
               placeholder="email@email.com"
@@ -158,9 +166,9 @@
 
               
                 
-              
+              <fieldset class="form__fieldset form__agreement">
             
-            <label class="form__checkbox_label">
+            <label class="form__checkbox-label">
               <input
                 type="checkbox"
                 class="form__input form__input_type_checkbox"
@@ -170,10 +178,10 @@
                 <span class="form__span">I agree with the terms of use</span>
               </label>
 
-               
+            </fieldset>
             
           </form>
-        </div>
+        
       </section>
       <section class="menu" id="menu">
         <h2 class="menu__title">Menu</h2>
@@ -280,28 +288,30 @@
           alt="logo"
           class="footer__logo"
         />
-        
+        <div class="footer__column">
+        <h4 class="footer__social-heading">Social media</h4>
         <ul class="footer__list">
-          <li class="footer__social-heading">Social media</li>
-           <li class="footer__list-item-container">
+          
+         
               <li class="footer__list-item">
-               <img
+               
+               
+               <a class="footer__social-link"> <img
                 src="./images/facebook_white.svg"
                 alt="facebook"
-                class="footer__social-icon"
-               />
-               <a class="footer__social-link">Facebook</a>
+                class="footer__social-icon"/>Facebook</a>
               </li>
             <li class="footer__list-item">
-              <img
+              
+              
+              <a class="footer__social-link"><img
                 src="./images/instagram_white.svg"
                 alt="instagram"
-                class="footer__social-icon"
-              />
-              <a class="footer__social-link">Instagram</a>
+                class="footer__social-icon"/>Instagram</a>
              </li>
-           </li>
+           
       </ul>
+    </div>
       </div>
 
       <p class="footer__copyright">ⓒ2024sashajovic</p>

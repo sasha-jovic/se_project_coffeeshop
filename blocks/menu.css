@@ -14,10 +14,11 @@
     text-align: center;
     margin: 0 auto 24px;
     max-width: 780px;
-    
-
-    
-    
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
     
     
     
@@ -26,11 +27,11 @@
     text-align: center;
     max-width: 780px;
     margin: 0 auto 100px;
-
-    
-    
-    
-    
+    font-family: "Noto Serif";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
 }
 .menu__cards {
     display: flex;
@@ -40,30 +41,7 @@
     padding: 0;
     margin: 0;
     list-style-type: none;
+}
     
     
     
-    
-}
-.card {
-    width: 540px;
-}
-.card__list {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-.card__title {
-    margin: 0 0 32px;
-}
-.card__list-item {
-    display: flex;
-    
-}
-.card__list-divider {
-    border-bottom:1px solid black;
-    flex-grow: 1;
-}
