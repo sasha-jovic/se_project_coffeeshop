@@ -38,6 +38,9 @@
   padding-bottom: 173px;
   max-width: 660px;
   padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
 }
   
  
@@ -47,15 +50,15 @@
   font-weight: normal;
   gap: 20px;
   color: white;
-  margin:0 0 20px;
+  margin:0;
   font-style: normal;
   z-index: 1;
   font-family: "Noto Serif","Times New Roman",serif;
 }
   
-.about__paragraph_bottom-line {
-  margin-bottom: 0;
-}
+
+  
+
 .about__circle {
   width: 426px;
   height: 426px;

@@ -19,6 +19,8 @@
   border-radius: 4px;
   font-size: 20px;
   line-height: 30px;
+  box-sizing:border-box;
+  
 }
 .form__button {
   height: 60px;
