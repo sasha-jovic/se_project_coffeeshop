@@ -7,12 +7,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 5px;
+  margin: 0;
   max-height: 800px;
   min-height: 720px;
   height: 100vh;
   z-index: 2;
-  margin: 0 5px 0 0;
+  
   
 }
 
@@ -29,7 +29,7 @@
 .header__span-accent {
   display: block;
   
-  font-family: "Noto Serif";
+  font-family: "Noto Serif","Times New Roman",serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -41,7 +41,7 @@
   max-width: 683px;
   padding-left: 80px;
   margin: 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif","Times New Roman",serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -65,6 +65,7 @@
   padding-bottom: 40px;
   padding-right: 80px;
   color: #6F6F6F;
+  font-weight: 500;
 }
 .header__footer_paragraph {
   margin: 0;
