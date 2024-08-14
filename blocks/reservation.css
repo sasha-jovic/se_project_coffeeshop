@@ -3,18 +3,16 @@
   background-image: url(../images/background_reservation.svg);
   background-position: center;
   background-repeat: no-repeat;
-
-  font-family: "Inter",Arial,sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   display: flex;
   flex-direction: column;
   padding-bottom: 120px;
   margin: 0 auto;
-  
-
 }
+
 .reservation__title {
-  margin-top:  100px;
+  margin-top: 100px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -22,10 +20,7 @@
   margin-right: auto;
   margin-bottom: 80px;
 }
+
 .reservation__form {
   margin: 0 auto;
-  
 }
-  
-
-
